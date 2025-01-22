@@ -10,7 +10,7 @@ Bem-vindo ao **Amigo Secreto**, um site simples e interativo criado para facilit
 2. **Sorteio Aleatório**: Um botão realiza o sorteio, revelando o amigo secreto do usuário.
 3. **Interação Visual**:
    - A imagem principal muda entre **três temáticas** (Natal, Halloween e Sem Tema) ao clicar.
-   - O resultado do sorteio é escondido por uma tela que precisa ser clicada para revelar o amigo secreto.
+   - O resultado do sorteio é escondido por um botão que precisa ser clicado para revelar o amigo secreto.
 
 ---
 
@@ -33,3 +33,22 @@ Bem-vindo ao **Amigo Secreto**, um site simples e interativo criado para facilit
 
 
 ou Ultilize agora mesmo no seu navegador!
+
+[GitHub Pages]https://kattyl.github.io/Amigo-Secreto/
+
+---
+
+## 📸 Créditos
+
+As imagens utilizadas neste projeto foram obtidas de fontes externas. Seguem os devidos créditos:
+
+- **Imagem do Papai Noel com Chapéu Vermelho**  
+  Disponível em: [Vecteezy](https://pt.vecteezy.com/png/35624962-santa-vermelho-natal-chapeu)
+
+- **Imagem da Mulher com Tema Halloween**  
+  Disponível em: [PNG Wing](https://www.pngwing.com/pt/free-png-ygqpd/download)
+
+- **Ícone de Ocultação de Senha**  
+  Disponível em: [Freepik](https://br.freepik.com/vetores-premium/icone-de-ocultacao-de-senha-icone-para-privacidade-de-dados-e-marca-de-conteudo-sensivel-ilustracao-vetorial_31770918.htm)
+
+Agradeço aos criadores pela contribuição! :heart:
