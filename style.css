@@ -135,9 +135,9 @@ ul {
 }
 
 .result-list {
-    margin-top: 15px;
+    margin-top: 10px;
     color: #05DF05;
-    font-size: 22px;
+    font-size: 42px;
     font-weight: bold;
     text-align: center;
 }
@@ -160,3 +160,33 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.button-draw:disabled {
+    background-color: #6e6e6e; 
+    color: var(--color-white); 
+    cursor: not-allowed; 
+    opacity: 0.8; 
+}
+
+div.revelar ul:first-of-type {
+    position: absolute;
+    background-color: #000000; 
+    padding: 20px; 
+    border-radius: 10px;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+} 
+
+div.revelar ul:first-of-type.aposSortear {
+    opacity: 1;
+    background-color: #000000; 
+    padding: 20px; 
+    border-radius: 10px;
+    transition: opacity 1s ease-out;
+} 
+
+div.revelar.hide ul:first-of-type {
+    opacity: 0; 
+    pointer-events: none; 
+}
+
