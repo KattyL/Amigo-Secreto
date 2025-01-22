@@ -31,8 +31,8 @@ Bem-vindo ao **Amigo Secreto**, um site simples e interativo criado para facilit
 ### Passo a Passo
 
  Clone este repositório em sua máquina local:
-   ```bash
-   git clone https://github.com/KattyL/Amigo-Secreto.git
+
+   git clone https://github.com/KattyL/Amigo-Secreto.git ```
 
 
 ou Ultilize agora mesmo no seu navegador!
