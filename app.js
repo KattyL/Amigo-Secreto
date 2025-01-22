@@ -39,16 +39,30 @@ function verificarLista(){
 
 function sortearAmigo(){
     let sorteado = amigos[Math.floor(Math.random() * amigos.length)];
-    exibirAmigos.innerHTML = 'Nada de spoilers!🤫 Seu amigo secreto é...'
+    exibirAmigos.innerHTML = 'Vamos lá!🤫 Seu amigo secreto é...'
     campo = document.getElementById('resultado')
     campo.innerHTML = `${sorteado}`
-    
+
     revelarDiv.classList.add('aposSortear');
 }
 
 
-let revelarDiv = document.querySelector('.revelar');
+let revelarDiv = document.querySelector('.revelar-container button');
 
 revelarDiv.addEventListener('click', function() {
     revelarDiv.classList.add('hide');
 });
+
+function alterarImagem() {
+
+    const imagem = document.getElementById('imgAmigo');
+    
+
+    if (imagem.src.includes('amigo-secreto.png')) {
+        imagem.src = 'assets/halloween.png';
+    } else if (imagem.src.includes('assets/halloween.png')) {
+        imagem.src = 'assets/natal.png'; 
+    } else {
+        imagem.src = 'assets/amigo-secreto.png'; 
+    }
+}

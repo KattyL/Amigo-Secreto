@@ -14,7 +14,7 @@
     <main class="main-content">
         <header class="header-banner">
             <h1 class="main-title">Amigo Secreto</h1>
-            <img src="assets/amigo-secreto.png" alt="Imagem representativa de amigo secreto">
+            <img id="imgAmigo" src="assets/amigo-secreto.png" alt="Imagem representativa de amigo secreto" onclick="alterarImagem()">
         </header>
         
         <section class="input-section">
@@ -25,8 +25,10 @@
             </div>
            
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
-        <div class="revelar">
-            <ul>Revelar resultado</ul>   
+        <div class="revelar-container">
+            <button>
+                <img src="assets/icone-revelar.png" alt="Ícone para revelar">
+                Revelar resultado</button>   
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
         </div>
 

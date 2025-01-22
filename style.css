@@ -168,25 +168,39 @@ ul {
     opacity: 0.8; 
 }
 
-div.revelar ul:first-of-type {
-    position: absolute;
-    background-color: #000000; 
-    padding: 20px; 
+.revelar-container button { 
+    position: absolute; 
     border-radius: 10px;
-    transition: opacity 1s ease-out;
     opacity: 0;
+    right: 40%;
+    bottom: -0.4%;
+    pointer-events: none; 
+    width: 20%;
+    padding: 15px 30px;
+    text-align: center;
 } 
 
-div.revelar ul:first-of-type.aposSortear {
+.revelar-container button.aposSortear {
+    display: flex;
+    align-items: center;
     opacity: 1;
-    background-color: #000000; 
-    padding: 20px; 
-    border-radius: 10px;
-    transition: opacity 1s ease-out;
+    background-color: #fcbd20;  
+    border: 2px solid #000;
+    border-radius: 25px;
+    pointer-events: auto;
+    color: white;
+    font-weight: 500;
+    
 } 
 
-div.revelar.hide ul:first-of-type {
+.revelar-container button.hide {
     opacity: 0; 
     pointer-events: none; 
+    transition: opacity 1s ease-out;
 }
 
+.revelar-container img{
+    margin-right: 14%;
+    width: 19%;
+    height: 22px
+}
