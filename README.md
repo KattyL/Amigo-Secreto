@@ -19,8 +19,11 @@ Bem-vindo ao **Amigo Secreto**, um site simples e interativo criado para facilit
 ### Interface Inicial
 ![Interface Inicial](assets/interface.gif)
 
-### Adicionando Participantes e revelação
+### Adicionando Participantes
 ![Adicionando Participantes](assets/adicionar-amigos.gif)
+
+### Sorteio e Revelação
+![Adicionando Participantes](assets/revelar-resultado.gif)
 
 
 ## 🛠️ Como Usar o Projeto
