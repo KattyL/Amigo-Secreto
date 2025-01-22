@@ -17,7 +17,7 @@ Bem-vindo ao **Amigo Secreto**, um site simples e interativo criado para facilit
 ## 📸 Capturas de Tela e Demonstração
 
 ### Interface Inicial
-![Interface Inicial](assets/interface.png)
+![Interface Inicial](assets/interface.gif)
 
 ### Adicionando Participantes e revelação
 ![Adicionando Participantes](assets/adicionar-amigos.gif)
