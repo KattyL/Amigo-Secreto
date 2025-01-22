@@ -37,7 +37,7 @@ Bem-vindo ao **Amigo Secreto**, um site simples e interativo criado para facilit
 
 ou Ultilize agora mesmo no seu navegador!
 
-[GitHub Pages]https://kattyl.github.io/Amigo-Secreto/
+[Acesse pelo GitHub Pages](https://kattyl.github.io/Amigo-Secreto/)
 
 ---
 
